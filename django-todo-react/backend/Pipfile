@@ -6,7 +6,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "*"
 psycopg2-binary = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
@@ -14,6 +13,7 @@ dj-database-url = "*"
 gunicorn = "*"
 django-heroku = "*"
 whitenoise = "*"
+Django = "*"
 
 [requires]
 python_version = "3.7"
