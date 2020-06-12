@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 # import django_heroku
 
-import dj-database-url 
+import dj_database_url 
 db_from_env = dj_database_url.config()
 DATABASES[‘default’].update(db_from_env)
 
