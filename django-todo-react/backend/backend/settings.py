@@ -124,7 +124,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+STATIC_ROOT = "app-root/repo/wsgi/static"
+
 STATIC_URL = '/static/'
+
+
+STATICFILES_DIRS = (
+    ('assets', 'app-root/repo/wsgi/openshift/static'),
+
+    )
+
 
 CORS_ORIGIN_WHITELIST = ('http://localhost:3000',)
 
