@@ -154,6 +154,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 
-CORS_ORIGIN_WHITELIST = ('http://localhost:3000',)
+CORS_ORIGIN_WHITELIST = ('http://localhost:3000','https://to-do-taskapp-project.herokuapp.com/',)
 
 # django_heroku.settings(locals())
